@@ -14,8 +14,44 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: #000000
 }
 
 .restaurant-list {
   padding-top: 50px;
+  background-color: #ffffff
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+.arrow {
+  float: right;
+  padding-right: 25px;
+}
+
+
+.content {
+  padding: 15px;
+}
+
+.location {
+  line-height: 2.5em;
+  border-bottom: 2px solid rgba(202,210,207,.5);
+
+}
+
+.location:hover {
+  background-color: #73F1C1;
 }
